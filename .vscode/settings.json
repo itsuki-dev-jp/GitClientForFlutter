@@ -1,0 +1,23 @@
+{
+	"files.exclude": {
+    // ❌ 触ってはいけない場所（自動生成）
+    "**/.dart_tool": true,
+    "**/.idea": true,
+    "**/build": true,
+    "**/.metadata": true,
+    "**/pubspec.lock": true,
+    "**/*.iml": true,
+
+    // 🔴 今回はWindows専用なので不要なプラットフォーム
+    "**/android": true,
+    "**/ios": true,
+    "**/linux": true,
+    "**/macos": true,
+    "**/web": true,
+
+	// 🔴あってもいいが普段触らないもの
+	"**/.gitignore": true,
+	"**/analysis_options.yaml": true,
+	"**/README.md": true,
+  }
+}
